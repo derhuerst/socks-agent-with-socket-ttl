@@ -12,7 +12,7 @@ const torSocks5Agent = socksAgentWithSocketTTL({
 })
 
 ;(async () => {
-	while (true) {
+	while (true) { // eslint-disable-line no-constant-condition
 		const res = await fetch('https://wtfismyip.com/text', {
 			agent: torSocks5Agent,
 			headers: {
