@@ -23,6 +23,8 @@
 		"node": ">=16"
 	},
 	"dependencies": {
+		"debug": "^4.3.3",
+		"socksv5": "github:Miovision/socksv5#71e8437"
 	},
 	"devDependencies": {
 		"eslint": "^8.0.0"
