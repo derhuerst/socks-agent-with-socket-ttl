@@ -27,7 +27,8 @@
 		"socksv5": "github:Miovision/socksv5#71e8437"
 	},
 	"devDependencies": {
-		"eslint": "^8.0.0"
+		"eslint": "^8.0.0",
+		"node-fetch": "^2.6.6"
 	},
 	"scripts": {
 		"lint": "eslint .",
